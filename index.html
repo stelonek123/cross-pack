@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <title>CrossPack</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="images/png" href="icon.png">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+  </head>
+  <body>
+    <div id="Container">
+      <div id="Header">
+      <header class="mheader">CrossPack</header>
+      </div>
+      <div id="bar">
+        <a id="barlink1" href="#">About</a>
+        <a id="barlink2" href="#">Download</a>
+        <a id="barlink3" href="#">Contact</a>
+        <!--JavaScript-->
+        <script>
+        const barlink1 = document.getElementById("barlink1")
+        const barlink2 = document.getElementById("barlink2")
+        const barlink3 = document.getElementById("barlink3")
+        barlink1.addEventListener("click", function(e) {
+          e.preventDefault();
+          data.innerHTML = "Xilan CrossPack for Minecraft 1.8.9 is a open-source PvP pack, made with Minecraft 1.8.9 Forge; <br> <h1>How it was made?</h1><br> <i>Some time ago I've thought about Minecraft PvP clients, like Badlion or Lunar. Then I realised that they're clients, not packs. I wanted something mine, something that is free and modable. I've turned on my laptop with Debian, installed Minecraft 1.8.9 with Forge and added some mods</i> - Pefek45, Creator of this stuff <br><br> <h1>Mods I've used:</h1> <br> <i>-Optifine (OFC);<br> -Perspective Mod Redux(WARNING: This mod is banned on HyPixel, so disable it before play on that server); <br> -ChromaHud; <br> -Keystrokes; <br> -Pown's Toggle Sneak Mod; <br> -TNT Time; <br> -TimeChanger;</i>"
+        })
+
+        barlink2.addEventListener("click", function(e) {
+          e.preventDefault();
+          data.innerHTML = 'Version 1.0(BattleBorn) <a href="https://github.com/stelonek123/cross-pack/releases/download/XCP/CrossPack_189.zip">Click</a>'
+        })
+
+        barlink3.addEventListener("click", function(e) {
+          e.preventDefault();
+          data.innerHTML = 'E-Mail: <i>woznystefangry@gmail.com</i> or: <i>pefek45@outlook.com</i> <br> Youtube: <br> -Main-dev: <a href="https://www.youtube.com/@Pefek45" target="_blank">Pefek45</a><br> -Studio: <a href="https://www.youtube.com/@XilanSOfficial">XilanStudio'
+        })
+        </script>
+      </div>
+      <div id="content">
+      <p id="data">Welcome to CrossPack Official Site!</p>
+    </div>
+  </body>
+</html>
